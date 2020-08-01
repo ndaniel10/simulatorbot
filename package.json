@@ -1,25 +1,76 @@
 {
-
-  "name": "Test",
-
-  "description": "Test",
-
-  "version": "0.0.0",
-
-  "main": "bot.js",
-
+  "name": "andrestest",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-
-    "start": "node bot.js"
-
+    "start": "node server.js"
   },
-
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-
-    "discord.js": "11.1.0",
-
-    "request": "2.81.0"
-
-  }
-
+    "balanced-match": "^1.0.0",
+    "better-sqlite3": "^5.4.3",
+    "bindings": "^1.5.0",
+    "browserless": "^6.14.2",
+    "canvas-constructor": "^3.1.0",
+    "colornames": "^1.1.1",
+    "countdown.to": "^0.1.6",
+    "currency-formatter": "^1.5.5",
+    "discord-canvas": "^1.2.0",
+    "discord.js": "^11.6.4",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.2.3",
+    "express": "^4.16.4",
+    "football-score-sim": "^1.2.0",
+    "fotology": "^1.2.2",
+    "free-google-image-search": "^1.0.0",
+    "fs": "^0.0.2",
+    "google-images": "^2.1.0",
+    "google-maps-image-api-url": "^1.0.3",
+    "image-search-google": "^1.3.0",
+    "imagefinder": "^0.1.3",
+    "is-number": "^7.0.0",
+    "java": "^5.0.1",
+    "jimp": "^0.12.0",
+    "line-reader": "^0.4.0",
+    "magic_hitler": "^1.0.4",
+    "node-cron": "^2.0.3",
+    "node-schedule": "^1.3.2",
+    "node-stopwatch": "^0.0.1",
+    "node-superfetch": "^0.1.9",
+    "parse-ms": "^2.0.0",
+    "parse-time-to-ms": "^1.0.0",
+    "quick.db": "7.0.0-b21",
+    "random-number-in-range": "^1.0.2",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "simple-spellchecker": "^1.0.0",
+    "soccer-stats": "^0.0.1",
+    "split": "^1.0.1",
+    "statman-stopwatch": "^2.11.1",
+    "superagent": "^5.2.2",
+    "timer-stopwatch": "^0.2.0",
+    "tiny-timer": "^1.3.0",
+    "ts-node": "^8.5.0",
+    "twdown": "^1.0.3",
+    "twitter-video-downloader": "^1.0.13",
+    "txtgen": "^2.2.4",
+    "urban": "^0.3.2",
+    "xml2js": "^0.4.22",
+    "country-emoji": "^1.5.3",
+    "world-cup-history": "^2.0.12",
+    "footballdata-api-js": "^0.0.2",
+    "replaceall": "^0.1.6",
+    "random-hex-color": "^1.0.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "keywords": [
+    "node",
+    "discord",
+    "bot"
+  ]
 }
